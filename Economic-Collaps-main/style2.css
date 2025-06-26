@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wgt@300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins","sans-serif";
+}
+body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ecf8ee;
+      color: #fff;
+}
+header {
+      background: linear-gradient(to left,rgb(8, 220, 146),rgb(34, 228, 53));
+      padding: 20px;
+      text-align: center;
+      justify-content: center;
+}
+header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      
+}
+nav {
+      margin-top: 10px;
+}
+nav a {
+      color: #fff;
+      margin: 0 1%;
+      text-decoration: none;
+      font-weight: bold;
+}
+section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+}
+.imagem {
+      background: url('banner.jpg') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+}
+.imagem h2 {
+      font-size: 2.5em;
+      background: rgba(114, 164, 118, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+}
+.btn {
+      background-color: #332828;
+      color: #fff;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: background 0.3s;
+}
+.btn:hover {
+      background-color: #f70887;
+}
+    footer {
+      background: #000000;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #999;
+}
+.gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+}
+.texto_superior{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right,rgb(59, 150, 59),rgb(82, 255, 108));
+  height: 70px;
+  text-decoration: none;
+}
+.texto_superior a{
+      text-decoration: none;
+      color: #fff;
+}
+.Cleiton_Rasta{
+  
+  margin: 5px;
+  border-radius: 25px;
+  background: linear-gradient(to bottom,#00ff0d,rgba(31, 140, 17, 0.714),rgb(2, 56, 2));
+  text-align: justify-all;
+      
+}
+.Cleiton_Rasta p{
+      text-indent: 30px;
+}
+.hist:hover{
+      background-color: #188119;
+      border-radius: 5px;
+      transition: background 0.2s;
+}
+.educ:hover{
+      background-color: #188119;
+      border-radius: 5px;
+      transition: background 0.2s;
+}
+.pers:hover{
+      background-color: #188119;
+      border-radius: 5px;
+      transition: background 0.2s;
+}
+.cont:hover{
+      background-color: #188119;
+      border-radius: 5px;
+      transition: background 0.2s;
+}

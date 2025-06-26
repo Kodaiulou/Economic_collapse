@@ -1,0 +1,83 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:wgt@300;400;500;600;700;800;900&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins","sans-serif";
+}
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+      display: block;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 0px;
+      max-width: 600px;
+      margin: auto;
+      
+    }
+    .imagem h2 {
+      font-size: 2.5em;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .btn {
+      background-color: #ff4c4c;
+      color: #fff;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #20b643;
+    }
+    footer {
+      background: #1a1a1a;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #999;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+#sobre{
+  text-indent: 30px;
+}
+.bt{
+  padding-top: 20px;
+}
+#contato p a{
+  color:#ff4c4c;
+}
+#contato p a:hover{
+  color: #20b643;
+  transition: .3s;
+}
